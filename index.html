@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Imgur-Upload</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" media="screen">
+    <link href="./css/mobile-style.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="https://static.appvn.com/a/uploads/thumbnails/082016/imgur-awesome-images-gifs_icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <style type="text/css">
+    body{
+        background: #46c3b3;
+        font-family: 'Roboto', sans-serif;
+    }
+    h3{
+        color: white;
+        font-size: 27px;
+        font-weight: 300;
+    }
+    .image-url{
+        margin: 21px;
+    height: 32px;
+    outline: none;
+    transition: ease-in 0.4s;
+    border-radius: 50px;
+    padding: 7px 23px;
+    border: none;
+    background: #dfe4ea;
+        color: #a4b0be;
+    }
+    .image-url:focus{
+        background: #ffffff;
+        color: #2f3542;
+    }
+    span{
+        font-size: 24px;
+        color: white;
+            position: relative;
+    bottom: 17px;
+    transition: ease .5s;
+        -webkit-animation-name: go;
+        -webkit-animation-duration: 4s;
+        -webkit-animation-iteration-count: infinite;
+        animation-name: go;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+    }
+    @-webkit-keyframes go {
+      
+    }
+
+    @keyframes go {
+        0%{top: -17px}
+        35%{top: 0px}
+        75%{top: -17px}
+        100%{top:; 0px}
+    }
+</style>
+</head>
+
+<body>
+    <div class="title">
+        <h3>Up Ảnh Miễn Phí Imagur</h3>
+        <span class="fa fa-angle-down"></span>
+    </div>
+    <div class="dropzone">
+        <div class="info"></div>
+    </div>
+    <script type="text/javascript" src="./js/imgur.js"></script>
+    <script type="text/javascript" src="./js/upload.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.1/clipboard.min.js"></script>
+</body>
+
+</html>
