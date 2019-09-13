@@ -1,6 +1,6 @@
 # imgur-upload
 Project cũ, giờ mới đăng :&lt;
-```
+```javascript
 var feedback = function(res) {
     if (res.success === true) {
         var get_link = res.data.link.replace(/^http:\/\//i, 'https://');
